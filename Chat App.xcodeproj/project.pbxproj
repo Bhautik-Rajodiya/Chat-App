@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D717CF721ACAEBA613A2FB56 /* Pods_Chat_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189800C37BB7684B4A7EF519 /* Pods_Chat_App.framework */; };
+		E8241C3C2A7CBADC00C42057 /* ChatThreadPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8241C3B2A7CBADC00C42057 /* ChatThreadPage.swift */; };
+		E8241C3E2A7CBF0D00C42057 /* TreadUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8241C3D2A7CBF0D00C42057 /* TreadUserTableViewCell.swift */; };
 		E8595F742A70007700FE1884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8595F732A70007700FE1884 /* AppDelegate.swift */; };
 		E8595F762A70007700FE1884 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8595F752A70007700FE1884 /* SceneDelegate.swift */; };
 		E8595F782A70007700FE1884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8595F772A70007700FE1884 /* ViewController.swift */; };
@@ -16,18 +18,21 @@
 		E8595F802A70007900FE1884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8595F7E2A70007900FE1884 /* LaunchScreen.storyboard */; };
 		E8595F882A7007AD00FE1884 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8595F872A7007AD00FE1884 /* GoogleService-Info.plist */; };
 		E8595F8A2A700C3D00FE1884 /* CreatNewAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8595F892A700C3D00FE1884 /* CreatNewAccountPage.swift */; };
-		E8595F8C2A70BEEB00FE1884 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8595F8B2A70BEEB00FE1884 /* ViewController3.swift */; };
+		E8595F8C2A70BEEB00FE1884 /* chatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8595F8B2A70BEEB00FE1884 /* chatPage.swift */; };
 		E8595F8E2A70C50200FE1884 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8595F8D2A70C50200FE1884 /* TabViewController.swift */; };
 		E8595F902A70CDD300FE1884 /* AllUserPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8595F8F2A70CDD300FE1884 /* AllUserPage.swift */; };
 		E8595F922A70CEE400FE1884 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8595F912A70CEE400FE1884 /* UserTableViewCell.swift */; };
 		E8595F972A70EF0B00FE1884 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8595F962A70EF0B00FE1884 /* SettingsViewController.swift */; };
-		E8595F992A713DCF00FE1884 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8595F982A713DCF00FE1884 /* ViewController4.swift */; };
+		E871E0172A8E356600DBB6FB /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E871E0162A8E356600DBB6FB /* TableViewCell2.swift */; };
+		E871E0192A8E35E100DBB6FB /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E871E0182A8E35E100DBB6FB /* TableViewCell1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C8576EDEF4AB8C8DBDB05E1 /* Pods-Chat App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat App.release.xcconfig"; path = "Target Support Files/Pods-Chat App/Pods-Chat App.release.xcconfig"; sourceTree = "<group>"; };
 		189800C37BB7684B4A7EF519 /* Pods_Chat_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA671FE82B7D0BD72EF640E /* Pods-Chat App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat App.debug.xcconfig"; path = "Target Support Files/Pods-Chat App/Pods-Chat App.debug.xcconfig"; sourceTree = "<group>"; };
+		E8241C3B2A7CBADC00C42057 /* ChatThreadPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatThreadPage.swift; sourceTree = "<group>"; };
+		E8241C3D2A7CBF0D00C42057 /* TreadUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreadUserTableViewCell.swift; sourceTree = "<group>"; };
 		E8595F702A70007700FE1884 /* Chat App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8595F732A70007700FE1884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8595F752A70007700FE1884 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,12 +43,13 @@
 		E8595F812A70007900FE1884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8595F872A7007AD00FE1884 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E8595F892A700C3D00FE1884 /* CreatNewAccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatNewAccountPage.swift; sourceTree = "<group>"; };
-		E8595F8B2A70BEEB00FE1884 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		E8595F8B2A70BEEB00FE1884 /* chatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatPage.swift; sourceTree = "<group>"; };
 		E8595F8D2A70C50200FE1884 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		E8595F8F2A70CDD300FE1884 /* AllUserPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUserPage.swift; sourceTree = "<group>"; };
 		E8595F912A70CEE400FE1884 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		E8595F962A70EF0B00FE1884 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		E8595F982A713DCF00FE1884 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		E871E0162A8E356600DBB6FB /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewCell2.swift; path = "View Controller/TableViewCell2.swift"; sourceTree = "<group>"; };
+		E871E0182A8E35E100DBB6FB /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,9 @@
 			children = (
 				E8595F952A70D53400FE1884 /* common */,
 				E8595F942A70D51500FE1884 /* View Controller */,
-				E8595F932A70D4F000FE1884 /* Table View */,
 				E8595F792A70007700FE1884 /* Main.storyboard */,
+				E871E0182A8E35E100DBB6FB /* TableViewCell1.swift */,
+				E871E0162A8E356600DBB6FB /* TableViewCell2.swift */,
 				E8595F7C2A70007900FE1884 /* Assets.xcassets */,
 				E8595F7E2A70007900FE1884 /* LaunchScreen.storyboard */,
 				E8595F812A70007900FE1884 /* Info.plist */,
@@ -108,23 +115,25 @@
 			path = "Chat App";
 			sourceTree = "<group>";
 		};
-		E8595F932A70D4F000FE1884 /* Table View */ = {
+		E8595F932A70D4F000FE1884 /* All User View Controller */ = {
 			isa = PBXGroup;
 			children = (
 				E8595F8F2A70CDD300FE1884 /* AllUserPage.swift */,
 				E8595F912A70CEE400FE1884 /* UserTableViewCell.swift */,
 			);
-			path = "Table View";
+			path = "All User View Controller";
 			sourceTree = "<group>";
 		};
 		E8595F942A70D51500FE1884 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E8595F982A713DCF00FE1884 /* ViewController4.swift */,
 				E8595F772A70007700FE1884 /* ViewController.swift */,
 				E8595F892A700C3D00FE1884 /* CreatNewAccountPage.swift */,
-				E8595F8B2A70BEEB00FE1884 /* ViewController3.swift */,
 				E8595F8D2A70C50200FE1884 /* TabViewController.swift */,
+				E8595F932A70D4F000FE1884 /* All User View Controller */,
+				E8241C3B2A7CBADC00C42057 /* ChatThreadPage.swift */,
+				E8241C3D2A7CBF0D00C42057 /* TreadUserTableViewCell.swift */,
+				E8595F8B2A70BEEB00FE1884 /* chatPage.swift */,
 				E8595F962A70EF0B00FE1884 /* SettingsViewController.swift */,
 			);
 			path = "View Controller";
@@ -255,16 +264,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E871E0172A8E356600DBB6FB /* TableViewCell2.swift in Sources */,
 				E8595F8E2A70C50200FE1884 /* TabViewController.swift in Sources */,
-				E8595F8C2A70BEEB00FE1884 /* ViewController3.swift in Sources */,
+				E8595F8C2A70BEEB00FE1884 /* chatPage.swift in Sources */,
 				E8595F782A70007700FE1884 /* ViewController.swift in Sources */,
 				E8595F902A70CDD300FE1884 /* AllUserPage.swift in Sources */,
+				E871E0192A8E35E100DBB6FB /* TableViewCell1.swift in Sources */,
 				E8595F922A70CEE400FE1884 /* UserTableViewCell.swift in Sources */,
 				E8595F742A70007700FE1884 /* AppDelegate.swift in Sources */,
+				E8241C3C2A7CBADC00C42057 /* ChatThreadPage.swift in Sources */,
 				E8595F762A70007700FE1884 /* SceneDelegate.swift in Sources */,
+				E8241C3E2A7CBF0D00C42057 /* TreadUserTableViewCell.swift in Sources */,
 				E8595F8A2A700C3D00FE1884 /* CreatNewAccountPage.swift in Sources */,
 				E8595F972A70EF0B00FE1884 /* SettingsViewController.swift in Sources */,
-				E8595F992A713DCF00FE1884 /* ViewController4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

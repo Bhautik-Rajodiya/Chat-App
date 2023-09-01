@@ -43,7 +43,8 @@ class CreatNewAccountPage: UIViewController {
                     "name":nameTextField.text ?? "",
                     "email":emailTextField.text ?? "",
                     "mobilNumber":mobileNumberTextField.text ?? "",
-                    "password":conframPasswordTextField.text ?? ""
+                    "password":conframPasswordTextField.text ?? "",
+                    "uid":authDataResult?.user.uid ?? "",
                 ] as [String : Any]
                 
                 ref.collection("User").document((authDataResult?.user.uid)!).setData(dic)
